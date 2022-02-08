@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wine Pallace</title>
+    <link rel="stylesheet" href="css/todocompleto.css" />
+    <!-- Fuentes de texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.0/dist/sweetalert2.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <figure>
+          <img class="logo_header" src="./images/logonuevo.png" alt="" />
+        </figure>
+      </div>
+
+      <nav>
+        <ul class="menu_header">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="descubre.html">Descubre</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contáctenos</a></li>
+        </ul>
+      </nav>
+
+      <div class="carrito">
+        <figure>
+          <img
+            class="carrito_header"
+            src="./images/carrito.png"
+            alt="carrito de compras"
+          />
+        </figure>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="banner" id="inicio">
+          <div class="container">
+            <div class="text_wrapper">
+              <h1 class="titulo">
+                EL SABOR PERFECTO <br />
+                DEL MEJOR VINO ARTESANAL
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us Section -->
+      <section class="aboutus_sec">
+        <div class="img">
+          <img
+            src="./images/inicio/welcome.png"
+            class="img-responsive"
+            alt="img-description"
+          />
+        </div>
+        <section class="text_welcome">
+          <span class="welcome"><strong>Bienvenidos</strong></span>
+          <p>
+            ¿Qué tipo de vino necesito para una cita especial? ¿Qué tipo de
+            maridaje quedara mejor con un Cabernet Sauvignon?, estas son algunas
+            de las preguntas que pueden surgir en una persona que tenga un gusto
+            especial por los vinos, o a aquella que le genere interés saber mas
+            de esas botellas llenas de secretos. Aquí en WINE PALLACE te
+            mostraremos cuales son los mejores vinos, te mantendremos informado
+            de los eventos que giren entorno al mundo del vino, también contaras
+            con un sumiller que te ayudara a
+          </p>
+          <span class="signature"
+            ><img
+              src="./images/inicio/signature.png"
+              class="img-responsve"
+              alt="Signature"
+            />
+          </span>
+        </section>
+      </section>
+      <!-- Productos Section  -->
+      <section class="product_sec">
+        <section class="text_product">
+          <span class="productos"
+            ><strong
+              >Productos <br />
+              Similares</strong
+            ></span
+          >
+          <p class="parrafo">
+            Realizamos un estudio exhaustivo que abarca todos los vinos que
+            podríamos encontrar en el mercado, llegando a escoger aquellos vinos
+            que tienen las mejores referencias y son de fácil acceso en el
+            mercado.
+          </p>
+
+          <a class="boton" href="productos.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Ver Más
+          </a>
+        </section>
+        <div class="vinos">
+          <div class="vinitos">
+            <img src="./images/inicio/redWine.png" alt="img-description" />
+            <!-- <p>White Wine</p> -->
+            <span>$75</span>
+          </div>
+          <div class="vinitos">
+            <img src="./images/inicio/whiteWine.png" alt="img-description" />
+            <!-- <p>Red Wine</p> -->
+            <span>$60</span>
+          </div>
+        </div>
+      </section>
+      <section class="suscribete">
+        <div class="felicidad">
+          <img src="./images/inicio/contact.jpg" alt="cheers" />
+        </div>
+        <div class="formato">
+          <h2>Suscribete</h2>
+          <span class="divider"></span>
+          <form>
+            <input type="text" placeholder="Escribe tu nombre" id="text"/>
+            <input type="email" placeholder="Escribe tu correo" id="email"/>
+            <input type="telefono" placeholder="Escribe tu telefono" id="telefono"/>
+            <input type="direccion" placeholder="Escribe tu direccion" id="direccion"/>
+            <a class="boton" href="#" id="botonform">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Enviar
+            </a>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="navegacion_footer">
+        <div class="acceso_footer">
+          <h2>ACCESO RÁPIDO</h2>
+
+          <nav>
+            <ul class="menu_footer">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="descubre.html">Descubre</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="servicio_footer">
+          <h2>SERVICIOS</h2>
+          <nav>
+            <ul class="menu_servicio_footer">
+              <li><a href="#">Pregunta al Sumiller</a></li>
+              <li><a href="#">Cursos y Catas</a></li>
+              <li><a href="#">Club Wine Palace</a></li>
+              <li><a href="#">Nuestras Tiendas</a></li>
+              <li><a href="#">Wine Palace On-Line</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="oficina_footer">
+          <h2>OFICINA CENTRAL</h2>
+          <p>
+            Bogotá-Colombia <br />
+            Calle 152b #104-50<br />
+            Horario: Lunes a Domingo de 9:00am- 8:00pm<br />
+            Central: +57 315 526 0061 <br />
+            Pedidos: +57 313 473 5458<br />
+            Horario: de Lunes a Viernes de 08:30-18:00 <br />
+          </p>
+        </div>
+
+        <div class="newsletter_footer">
+          <h2>NEWSLETTER</h2>
+          <p>
+            Subscríbete a nuestra newsletter <br />
+            y te informaremos sobre las<br />
+            nuevas ofertas y promociones
+          </p>
+        </div>
+      </div>
+
+      <div class="redes_footer">
+        <div class="redes">
+          <figure>
+            <img src="./images/facebook 2.png" alt="facebook" />
+            <img src="./images/instagram 2.png" alt="instagram" />
+            <img src="./images/Twitter 2.png" alt="twitter" />
+          </figure>
+
+          <p>
+            Todos los derechos reservados 2022 © <br />
+            Sebastian F - Rosana V - Laura J - David C - Asthar M
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.0/dist/sweetalert2.all.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
